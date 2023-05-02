@@ -1,7 +1,5 @@
-# FUNDAMENTOS-DE-PYTHON
-Python es un software que viene incrementando su uso por parte de las empresas, es fácil de aprender e ideal para el desarrollo rápido de diversas técnicas multivariadas y de minería de datos que pueden
-ser aplicadas en diversas áreas y sobre la mayoría de las plataformas.
-En este curso aprenderemos el manejo de la herramienta Python desde un nivel introductorio con el manejo de estructuras y funciones, así como la presentación de las principales librerías orientadas a ciencia de datos. Continuaremos con la aplicación de algoritmos para la exploración de modelos de machine learning, series de tiempo y deeplearning.
+# Curso Python & Django
+Aprender python con Django te dará habilidad para desarrollar aplicaciones web sofisticadas y robustas, Django es un Framework muy utilizado en diferentes áreas, por lo que aprender a utilizar estas tecnologías te abrirá muchas oportunidades laborales, te invito a crear aplicaciones web de alta calidad con esta tecnología de vanguardia.
 ## Contenido del Curso
 ### 1.	Variables y estructuras de Datos Básicos.
 - [1.1.	Conociendo el lenguaje Python ](https://github.com/vpchimboc/FULL-STACK-PYTHON-DJANGO/blob/main/Clases/UNIDAD%201/1.%20Conceptos%20b%C3%A1sicos%20de%20Programaci%C3%B3n.ipynb).
