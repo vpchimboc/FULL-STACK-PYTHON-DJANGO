@@ -1,16 +1,16 @@
 #CURSO DE FUNDAMENTOS DE PYTHON 
 #EJERCICIOS DE LISTAS A RESOLVER
-#Crea una lista vacía llamada numeros e introduce los números del 1 al 5. Luego, muestra la lista por pantalla.
+#1.Crea una lista vacía llamada numeros e introduce los números del 1 al 5. Luego, muestra la lista por pantalla.
 
-#Crea una lista con los nombres de tus amigos y muestra por pantalla el primer elemento de la lista.
+#2.Crea una lista con los nombres de tus amigos y muestra por pantalla el primer elemento de la lista.
 
-#Crea una lista con los números del 1 al 10 y muestra por pantalla los números pares.
+#3. Crea una lista con los números del 1 al 10 y muestra por pantalla los números pares.
 
-#Crea una lista con los nombres de tus amigos y muestra por pantalla el último elemento de la lista.
+#4.Crea una lista con los nombres de tus amigos y muestra por pantalla el último elemento de la lista.
 
-#Crea una lista con los números del 1 al 10 y muestra por pantalla el último elemento de la lista.
+#5.Crea una lista con los números del 1 al 10 y muestra por pantalla el último elemento de la lista.
 
-#Crea una lista con los números del 1 al 10 y muestra por pantalla los números impares.
+#6. Crea una lista con los números del 1 al 10 y muestra por pantalla los números impares.
 
 #Crea una lista con los nombres de tus amigos y añade un nuevo amigo a la lista. Luego, muestra la lista por pantalla.
 
