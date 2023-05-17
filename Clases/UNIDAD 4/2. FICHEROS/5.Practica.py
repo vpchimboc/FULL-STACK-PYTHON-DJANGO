@@ -10,7 +10,7 @@ class Pelicula:
         self.titulo = titulo
         self.duracion = duracion
         self.lanzamiento = lanzamiento
-        print('Se ha creado la pelí­cula:',self.titulo)
+        #print('Se ha creado la pelí­cula:',self.titulo)
         
     def __str__(self):
         return '{} ({})'.format(self.titulo, self.lanzamiento)
@@ -31,7 +31,7 @@ class Catalogo:
     def mostrar(self):
         if len(self.peliculas) == 0:
             print("El catálogo está vacío")
-            return
+            return None
         for p in self.peliculas:
             print(p)
             

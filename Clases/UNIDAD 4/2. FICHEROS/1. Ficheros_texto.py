@@ -11,7 +11,7 @@ fichero = open('nuevo.txt','r')  # modo lectura read, por defecto ya es r, no es
 texto = fichero.read() # lectura completa
 fichero.close()
 #imprimir texto
-print("Nuevo archivo",texto)
+print("Mensaje",texto)
 
 fichero = open('nuevo.txt','r')
 texto = fichero.readlines() # leer creando una lista de líneas
@@ -23,6 +23,7 @@ print(texto)
 fichero = open('fichero.txt','a')  # modo a, append, añadir - extender (puntero al final)
 fichero.write('\nOtra línea más abajo del todo')
 fichero.close()
+
 #Lectura de un fichero no existente
 #fichero = open('ficherossdfsd.txt','r')
 fichero = open('fichero_inventado.txt','a+')  # Extensión con escritura simultánea, crea fichero si no existe
@@ -34,6 +35,7 @@ fichero.readline()   # Línea a línea
 fichero.readline()
 fichero.readline()
 fichero.close()
+print(fichero)
 #Lectura línea a línea secuencial
 with open("fichero.txt", "r") as fichero:
     for linea in fichero:

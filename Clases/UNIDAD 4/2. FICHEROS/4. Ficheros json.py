@@ -19,6 +19,7 @@ print(datos)
 with open("contactos.json", "w") as jsonfile:
     json.dump(datos, jsonfile)
 datos = None
+
 #Para leer un archivo JSON, simplemente puede llamar al json.loads() función.
 with open("contactos.json", 'r') as jsonfile:
     datos = json.load(jsonfile)

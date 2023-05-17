@@ -34,6 +34,7 @@ y recuperamos cada fila de nuestros datos.
 """
 with open("contactos.csv", newline="\n") as csvfile:
     reader = csv.reader(csvfile, delimiter=",")
+    print(reader)
     for nombre, empleo, email in reader:
         print(nombre, empleo, email)
 
@@ -69,5 +70,6 @@ tener etiquetadas tus columnas para legibilidad."""
 
 with open("contactos2.csv", newline="\n") as csvfile:
     reader = csv.DictReader(csvfile)
+    print(reader)
     for contacto in reader:
         print(contacto["nombre"], contacto["empleo"], contacto["email"])
