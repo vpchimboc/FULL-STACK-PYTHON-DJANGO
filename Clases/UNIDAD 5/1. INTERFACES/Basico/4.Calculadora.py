@@ -4,7 +4,7 @@ miFrame=Frame(raiz)
 miFrame.pack()
 
 #.........pantalla........
-pantalla=Entry(miFrame)
+pantalla=Entry(miFrame,width=200)
 pantalla.grid(row=1,column=1,padx=10,pady=10,columnspan=4)
 pantalla.config(background="black", fg="green", justify="right")
 #.......Fila 1...........

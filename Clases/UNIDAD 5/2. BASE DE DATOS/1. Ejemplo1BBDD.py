@@ -1,12 +1,11 @@
 import sqlite3
 #1.Crear la conexion
-miConexion=sqlite3.connect("PrimeraBase1")
+miConexion=sqlite3.connect("HistorialClinicoDBD")
 #2. Crear el cursor
 cursor=miConexion.cursor()
 #3. Ejecutar Query
-cursor.execute("CREATE TABLE PRODUCTOS(NOMBRE_ARTICULO VARCHAR(50),PRECIO INTEGER,SECCION VARCHAR(20))")
+cursor.execute("CREATE TABLE PACIENTE(NOMBRE VARCHAR(50),EDAD INTEGER,DIRECCION VARCHAR(20))")
 #4. Insertar Datos
-cursor.execute("INSERT INTO PRODUCTOS VALUES ('PC',5,'TECNOLOGIA')")
-
+cursor.execute("INSERT INTO PACIENTE VALUES ('Veronica',31,'CUENCA')")
 miConexion.commit()
 miConexion.close()

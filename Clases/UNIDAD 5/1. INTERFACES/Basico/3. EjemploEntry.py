@@ -3,6 +3,7 @@ from tkinter import *
 raiz=Tk()
 miFrame=Frame(raiz,width=1200,height=600)
 miFrame.pack()
+
 minombre=StringVar()
 
 cuadroNombre=Entry(miFrame,textvariable=minombre)

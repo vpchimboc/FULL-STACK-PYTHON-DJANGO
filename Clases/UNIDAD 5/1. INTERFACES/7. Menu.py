@@ -23,7 +23,7 @@ ventana.config(menu=barra_menu)
 
 # Crear menú "Archivo"
 menu_archivo = tk.Menu(barra_menu, tearoff=0)
-barra_menu.add_cascade(label="Archivo", menu=menu_archivo)
+barra_menu.add_cascade(label="Archivo", command=mostrar_advertencia)
 menu_archivo.add_command(label="Abrir")
 menu_archivo.add_command(label="Guardar")
 menu_archivo.add_separator()

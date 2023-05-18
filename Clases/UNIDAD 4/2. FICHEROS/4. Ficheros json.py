@@ -13,7 +13,7 @@ contactos = [
 datos = []
 
 for nombre, empleo, email in contactos:
-    datos.append({"nombre":nombre, "empleo":empleo, "email":email})
+    datos.append({"nombre":nombre, "empleo":empleo, "email":[1,2,3,4,5]})
 print(datos)
 #Para escribir JSON en un archivo, llame al json.dumps() función.
 with open("contactos.json", "w") as jsonfile:

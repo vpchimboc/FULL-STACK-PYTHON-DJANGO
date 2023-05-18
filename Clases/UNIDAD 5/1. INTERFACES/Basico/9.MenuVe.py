@@ -46,7 +46,7 @@ archivoMenu.add_command(label="Salir",command=estadoSalir)
 #Submenus de menu edicion
 archivoEdicion.add_command(label="Copiar")
 archivoEdicion.add_command(label="Cortar")
-archivoEdicion.add_command(label="Pegar")
+archivoEdicion.add_command(label="Pegar",command=cerrarDocumento)
 
 #Submenus de menu ayuda
 archivoAyuda.add_command(label="Licencia",command=estadoLicencia)

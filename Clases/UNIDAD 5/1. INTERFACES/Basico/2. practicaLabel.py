@@ -5,7 +5,7 @@ miFrame.pack()
 miLabel=Label(miFrame,text="Hola Alumnos de Python")
 #miLabel.pack()
 miLabel.place(x=100,y=200)
-miLabel.config(fg="red",font=("Comic Sans MS",18))
+miLabel.config(fg="blue",font=("Comic Sans MS",18))
 #####imagen
 miImagen=PhotoImage(file="imagen.png")
 miLabel2=Label(miFrame,image=miImagen)

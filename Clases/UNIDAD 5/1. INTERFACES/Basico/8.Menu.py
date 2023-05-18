@@ -11,7 +11,7 @@ archivoAyuda=Menu(barraMenu,tearoff=0)
 
 #menus a la barra
 barraMenu.add_cascade(label="Archivo",menu=archivoMenu)
-barraMenu.add_cascade(label="Eición",menu=archivoEdicion)
+barraMenu.add_cascade(label="Edición",menu=archivoEdicion)
 barraMenu.add_cascade(label="Herramientas",menu=archivoHerramientas)
 barraMenu.add_cascade(label="Ayuda",menu=archivoAyuda)
 
