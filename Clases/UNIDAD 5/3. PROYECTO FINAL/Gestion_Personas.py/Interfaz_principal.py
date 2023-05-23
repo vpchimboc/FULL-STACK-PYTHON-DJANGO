@@ -160,7 +160,7 @@ lbl_titulo.config(fg="Blue")
 lbl_titulo.pack()
 #Frame
 miFrame=Frame(ventana,width=500,height=400)
-miFrame.place(x=10,y=10)
+miFrame.pack()
 #Labels
 lbl_id=Label(miFrame,textvariable=txt_id)
 lbl_name=Label(miFrame,text="Nombre:")
@@ -201,9 +201,10 @@ def codigoBoton():
 #Panel de controles "FRAME"
 
 frame2=Frame(ventana,width=500,height=60,bg="red")
-frame2.place(x=10,y=10)
+frame2.pack()
 
-
+for child in frame2.winfo_children():
+    child.configure(state=tk.DISABLED)
 
 
 #Botones
@@ -224,7 +225,6 @@ btnEliminar.grid(row=0,column=3,padx=5)
 #Frame
 miFrame1=Frame(ventana,width=500,height=400)
 miFrame1.pack()
-miFrame1.place(x=10,y=10)
 # Crear tabla
 tabla = ttk.Treeview(miFrame1)
 
